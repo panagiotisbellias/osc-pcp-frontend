@@ -26,4 +26,5 @@ class PersonService {
 
 }
 
-export default new PersonService();
+const personServiceInstance = new PersonService();
+export default personServiceInstance;
